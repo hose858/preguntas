@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Preguntas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1><span style="font-size:1.2em;">�</span> Preguntas para Romper el Hielo</h1>
+        <div id="progress-bar"><div id="progress"></div></div>
+        <div id="question-box">
+            <p id="question">Haz clic en el botón para empezar</p>
+            <div id="answer-area"></div>
+        </div>
+        <button id="next-btn">Siguiente pregunta</button>
+        <div id="answers-list" style="display:none">
+            <h2>Respuestas dadas</h2>
+            <ul id="answers-ul"></ul>
+            <button id="copy-btn">Copiar respuestas</button>
+            <span id="copy-msg" style="display:none;color:#4caf50;margin-left:10px;">¡Copiado!</span>
+        </div>
+    </div>
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
