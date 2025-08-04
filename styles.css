@@ -1,3 +1,19 @@
+/* Marca de agua */
+.watermark {
+    position: fixed;
+    right: 24px;
+    bottom: 18px;
+    z-index: 10;
+    color: #7c3aed;
+    font-size: 1.25em;
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    opacity: 0.75;
+    letter-spacing: 1.5px;
+    pointer-events: none;
+    user-select: none;
+    text-shadow: 0 2px 10px #fff8, 0 0px 2px #7c3aed33;
+    font-weight: 600;
+}
 body {
     min-height: 100vh;
     margin: 0;
